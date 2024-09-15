@@ -1,0 +1,989 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  color: white;
+  background-color: #0e0837;
+}
+
+body {
+  overflow-x: hidden !important;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.n-items ul {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+}
+
+.n-icons {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.list {
+  background-color: transparent;
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.3rem;
+  border-radius: 5px;
+  display: none;
+}
+
+main {
+  height: 80vh;
+  display: flex;
+  width: 60%;
+  margin: auto;
+  align-items: center;
+}
+
+section {
+  position: relative;
+}
+
+.bt-vid {
+  position: absolute;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.left h1 {
+  font-size: 3rem;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.discovery {
+  align-self: flex-start;
+  padding: 0.8rem 1rem;
+  border: none;
+  background-color: #0567f3;
+  color: white;
+}
+
+.right img {
+  scale: 1.8;
+  z-index: -1;
+}
+
+.left p:nth-of-type(1) {
+  color: #ba115a;
+}
+
+.left p:nth-of-type(3) {
+  color: #ba115a;
+}
+
+.tours {
+  width: 60%; /* Set width to 60% */
+  margin: auto;
+  display: flex;
+  justify-content: space-between; /* Space between the content */
+  align-items: center;
+  margin-top: -7.7%;
+  color: white;
+}
+
+.tours h4 {
+  color: #d71462;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1rem;
+}
+
+.card {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  border-right: 2px;
+  flex: 1;
+}
+
+.card:last-child {
+  border-right: none;
+}
+
+.t-info {
+  width: 65%;
+  background-color: #100726;
+  padding: 1rem;
+  align-self: flex-end;
+}
+
+.t-image {
+  width: 35%;
+  background-color: #ba115a;
+}
+
+.t-pic {
+  overflow: hidden;
+}
+
+.t-pic img {
+  transition: all 0.3s;
+}
+
+.t-pic img:hover {
+  scale: 1.1;
+  rotate: 5deg;
+}
+
+.discover {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 3rem auto;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.d-flex {
+  display: flex;
+  width: 100%;
+}
+
+.d-about {
+  width: 50%;
+}
+
+.d-about p {
+  color: #ba115a;
+}
+
+.d-para {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.d-para p {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Play sans-serif;
+}
+
+.discover h6 {
+  color: #d71462;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.discover h1 {
+  font-size: 72px;
+  font-weight: 800;
+}
+.discover h2 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.background {
+  background-image: url("https://demo.moxcreative.com/beatkit/wp-content/uploads/sites/21/2021/04/dj-sound-equipment-at-nightclubs-and-music-festivals-edm-future-house-music-and-so-on.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.track {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.track-main {
+  width: 50%;
+}
+
+.maint-lists {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.track-main h6 {
+  font-size: 17px;
+  color: #ba115a;
+}
+.track-para {
+  width: 40%;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background: linear-gradient(180deg, #1a1a42, #4e1455, #1a1a42);
+}
+
+.trackop {
+  font-size: 16px;
+}
+
+.t-lists {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 90%;
+  background: linear-gradient(to right, #1a1a42, #4e1455);
+  padding: 0.2rem 1.5rem;
+}
+
+.t-lists2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 90%;
+  background: transparent;
+  padding: 0.2rem 1.5rem;
+}
+
+.t-lists h5 {
+  font-size: 16px;
+}
+.t-lists2 h5 {
+  font-size: 16px;
+}
+
+.t-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.t-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.t-icons .bi-cloudy-fill,
+.bi-spotify,
+.bi-music-note-beamed,
+.bi-bar-chart-steps {
+  padding: 0 0.5rem;
+}
+
+.track-para h6 {
+  font-weight: 700;
+  font-size: 16px;
+  color: #ba115a;
+}
+
+.track-para h2 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.mic {
+  width: 5.6%;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  clip-path: circle();
+  background: linear-gradient(135deg, #3a0ca3, #7209b7, #f72585);
+}
+
+.artist {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.artpara {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.artpara h5 {
+  font-size: 16px;
+}
+
+.concert {
+  text-align: center;
+  width: 80%;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.concert h6 {
+  font-size: 16px;
+  color: #d71462;
+}
+
+.tickbtn button {
+  padding: 1rem 2.5rem;
+  background-color: #0567f3;
+  color: white;
+  font-weight: bolder;
+  border: none;
+}
+
+.tickets {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #140838, #430a42);
+}
+.tickets2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+}
+
+.location-text {
+  width: 50%;
+  text-align: start;
+}
+
+.tickets p {
+  font-family: Play sans-serif;
+}
+
+.concert h2 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.t-date {
+  display: flex;
+  width: 45%;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.t-location {
+  width: 45%;
+  display: flex;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.t-location p {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.tickbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.tickh3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tickh3 h3 {
+  font-size: 28px;
+}
+
+.ticket-icon .bi-calendar {
+  background-color: #d71462;
+  font-size: 28px;
+  padding: 0.5rem 1rem;
+}
+
+.location-icon .bi-geo-alt-fill {
+  background-color: #d71462;
+  font-size: 28px;
+  padding: 0.5rem 1rem;
+}
+
+.rappers-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0; /* Remove the gap between images */
+}
+
+.rapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.rapper img {
+  width: 100%;
+  height: 400px; /* Increase the height of the images */
+  object-fit: cover; /* Ensures the image covers the container */
+  transition: transform 0.3s ease;
+}
+
+.rapper:hover img {
+  transform: scale(1.2); /* Increase the size of the image on hover */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease;
+}
+
+.rapper:hover .overlay {
+  opacity: 1;
+}
+
+.overlay h3,
+.overlay p {
+  margin: 0;
+}
+
+.news {
+  width: 90%;
+  margin: 2rem auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.news-info {
+  display: flex;
+}
+
+.n-news,
+.n-btn {
+  width: 50%;
+}
+
+.n-btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.n-btn button {
+  background-color: #0567f3;
+  padding: 0.6rem 1.8rem;
+  color: white;
+  border: none;
+  font-size: 15px;
+}
+
+.news-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.news-card span {
+  font-family: play, sans-serif;
+}
+.news-card img {
+  width: 100%;
+  height: 400px;
+}
+
+.news-para h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.news-para span {
+  color: #d71462;
+}
+
+.news-para {
+  padding: 2rem;
+}
+
+.news-card {
+  background-color: rgb(16, 7, 38);
+}
+
+.news h6 {
+  color: #d71462;
+  font-size: 16px;
+}
+.news h2 {
+  font-size: 50px;
+}
+
+.sponsor {
+  width: 80%;
+  margin: 3rem auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sponsor h6 {
+  font-size: 16px;
+  font-weight: 500px;
+  color: #d71462;
+}
+
+.sponsor h2 {
+  font-size: 50px;
+}
+
+.sponsor-images {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sponsor-images img {
+  width: 150px;
+}
+
+.footer-main {
+  width: 90%;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.foot {
+  display: flex;
+}
+
+.footer-tempelate {
+  width: 50%;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.footer2 {
+  width: 50%;
+  display: flex;
+}
+
+.footer-about,
+.footer-support {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+  gap: 1rem;
+  align-items: center;
+}
+.footer-about hr {
+  width: 80%;
+  border: none;
+  height: 0.5px;
+  background: linear-gradient(to right, red, blue);
+}
+.footer-support hr {
+  width: 80%;
+  border: none;
+  height: 0.5px;
+  background: linear-gradient(to right, red, blue);
+}
+
+.about-a {
+  display: flex;
+  flex-direction: column;
+}
+.about-a a {
+  color: white;
+  text-decoration: none;
+}
+
+.support-a {
+  display: flex;
+  flex-direction: column;
+}
+
+.support-a a {
+  color: white;
+  text-decoration: none;
+}
+
+.tempelate-icons {
+  display: flex;
+  gap: 2rem;
+  font-size: 24px;
+}
+
+.mox {
+  text-align: center;
+  font-size: 14px;
+  font-family: Play, sans-serif;
+  font-weight: 400;
+}
+
+.footer-main hr {
+  border: none;
+  background-color: #23236a;
+  height: 1px;
+}
+
+.footer1 {
+  object-fit: cover;
+  width: 100%;
+  height: 480px;
+  position: absolute;
+  z-index: -1;
+}
+
+.footer-main {
+  position: relative;
+}
+
+@media (max-width: 1250px) {
+  main {
+    width: 80%;
+  }
+
+  .tours {
+    width: 80%;
+    margin-top: -18%;
+  }
+
+  .track {
+    width: 97%;
+  }
+
+  .concert {
+    width: 100%;
+  }
+}
+
+@media (max-width: 950px) {
+  * {
+    overflow-x: hidden;
+  }
+
+  .n-items ul {
+    display: none;
+  }
+
+  .list {
+    display: block;
+  }
+  .tours {
+    width: 90%;
+    margin-top: -17%;
+  }
+
+  .discover {
+    width: 90%;
+  }
+  .mic {
+    width: 7%;
+    font-size: 1.5rem;
+  }
+
+  .tickets,
+  .tickets2 {
+    width: 95%;
+    margin: auto;
+  }
+
+  .sponsor-images img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 750px) {
+  main {
+    flex-direction: column;
+    position: relative;
+  }
+  .right img {
+    scale: 1.4;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-42%, -50%);
+    z-index: -1;
+  }
+
+  .tours {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .t-info {
+    width: 100%;
+    text-align: center;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0 0 0 2rem;
+  }
+
+  .card {
+    border-right: none;
+  }
+
+  .card {
+    align-self: flex-start;
+    gap: 1rem;
+  }
+
+  .t-image {
+    width: 100%;
+  }
+
+  .d-flex {
+    display: flex;
+    flex-direction: column;
+
+    gap: 3rem;
+  }
+
+  .d-about {
+    width: 100%;
+  }
+  .d-about p {
+    text-align: center;
+  }
+
+  .d-about h2 {
+    text-align: center;
+  }
+
+  .d-para {
+    width: 100%;
+  }
+
+  .d-about h2 {
+    font-size: 30px;
+  }
+
+  .track {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .track-main {
+    width: 100%;
+    margin: auto;
+  }
+
+  .t-play {
+    width: 235px;
+    font-size: 12px;
+  }
+
+  .t-icons {
+    font-size: 12px;
+  }
+  .t-time h5 {
+    font-size: 12px;
+  }
+
+  .t-times {
+    width: 50px;
+  }
+
+  .maint-lists {
+    width: 100%;
+  }
+
+  .t-lists,
+  .t-lists2 {
+    padding: 1rem 0;
+    width: 98%;
+  }
+
+  .t-icons {
+    width: 180px;
+  }
+
+  .track-para {
+    width: 90%;
+  }
+
+  .tickets,
+  .tickets2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .t-date {
+    width: 100%;
+  }
+
+  .t-location {
+    width: 100%;
+  }
+
+  .ticket-icon .bi-calendar {
+    font-size: 16px;
+  }
+
+  .location-icon .bi-geo-alt-fill {
+    font-size: 16px;
+  }
+
+  .ticket-text h2 {
+    font-size: 18px;
+  }
+  .location-text h2 {
+    font-size: 18px;
+  }
+
+  .tickh3 h3 {
+    font-size: 21px;
+    flex-wrap: wrap;
+  }
+
+  .op {
+    width: 99%;
+  }
+  .tickbtn {
+    width: 50%;
+  }
+
+  .location-text {
+    width: 30%;
+  }
+
+  .tickbtn button {
+    padding: 0.5rem 0.8rem;
+    font-size: 16px;
+    align-self: flex-start;
+  }
+
+  .rappers-section {
+    grid-template-columns: 1fr;
+  }
+
+  .news {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .news-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .news-cards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .n-news {
+    width: 100%;
+    text-align: center;
+  }
+
+  .news h2 {
+    font-size: 28px;
+  }
+
+  .news h6 {
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+
+  .n-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .n-btn button {
+    font-size: 15px;
+    padding: 0.5rem 1rem;
+  }
+
+  .sponsor h6 {
+    font-size: 14px;
+    font-weight: 500px;
+    color: #d71462;
+  }
+
+  .sponsor h2 {
+    font-size: 28px;
+  }
+
+  .foot {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-main {
+    width: 100%;
+  }
+
+  .footer-tempelate {
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .tempelate-icons {
+    margin: auto;
+  }
+
+  .footer2 {
+    display: flex;
+    width: 100%;
+  }
+
+  .footer1 {
+    height: 750px;
+  }
+}
+
+@media (max-width: 600px) {
+  .n-icons {
+    display: none;
+  }
+
+  .n-logo img {
+    width: 300px;
+  }
+}
